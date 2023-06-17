@@ -5,4 +5,8 @@
 
  # Atualizações
 
- Embora eu já tenha publicado esse repositório, eu ainda não comecei esse curso, então ele ainda não tem conteúdo.
+ <h2>
+    Primeiro commit - 17 de Junho de 2023
+ </h2>
+
+ Embora eu já tenha publicado esse repositório, eu ainda não comecei esse curso, então ele ainda não tem conteúdo. Estarei começando em breve, após meu curso de HTML e CSS e de Lógica de Programação.
