@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(70, 142, 236);
+    background-color: rgb(215, 83, 83);
     color: white;
 
     width: 100vw;
@@ -28,16 +28,19 @@ section {
     color: black;
 
     width: 500px;
-    height: 350px;
     padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.338);
 
     border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-div#img-div {
-    border-radius: 50%;
-} 
+section > div > div {
+    margin: 15px;
+}
 
 div#img-div img {
     width: 80px;

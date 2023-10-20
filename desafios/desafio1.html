@@ -5,27 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Modelo de exercício</title>
+    <title>Hora do dia</title>
 
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/style1.css">
 </head>
-<body>
+<body onload="carregar()">
     <div id="interface">
         <header>
             <h1>
-                Título
+                Hora do dia
             </h1>
         </header>
 
         <section>
             <div>
-                <p>
-                    Testando...
-                </p>
-            </div>
+                <div>
+                    <p id="msg">
+                        <span style="font-weight: bold; color: red;">[ERRO] JavaScript não foi carregado</span>
+                    </p>
+                </div>
 
-            <div id="img=div">
-                <img src="../" alt="Horário">
+                <div id="img=div">
+                    <img src="../Imagens/manha.png" alt="Horário do dia" id="foto">
+                </div>
             </div>
         </section>
 
@@ -36,6 +38,6 @@
         </footer>
     </div>
 
-    <script src="../script"></script>
+    <script src="../scripts/desafio1.js"></script>
 </body>
 </html>
