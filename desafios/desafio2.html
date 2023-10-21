@@ -18,38 +18,39 @@
         </header>
 
         <section>
-            <form action="scripts/desafio2.js">
+            <form method="get" autocomplete="off">
                 <div>
                     <label for="idanoNasc">Ano de nascimento: </label>
-                        <input type="number" name="anoNasc" id="idanoNasc" min="0" max="100" >
+                        <input type="number" name="anoNasc" id="idanoNasc" required />
                 </div>
 
                 <div>
                     <label for="sexo">Sexo: </label>
                         <div class="escolhas">
-                            <input type="radio" name="sexo" id="masc"> <span>Masculino</span>
+                            <input type="radio" name="sexo" id="masc" checked /> <span>Masculino</span>
                         </div>
 
                         <div class="escolhas">
-                            <input type="radio" name="sexo" id="fem"> <span>Feminino</span>
+                            <input type="radio" name="sexo" id="fem" /> <span>Feminino</span>
                         </div>
                 </div>
 
                 <div>
-                    <input type="submit" value="Verificar">
+                    <input type="submit" value="Verificar" onclick="verificar()" />
                 </div>
             </form>
 
-            <div id="script-part">
-                <div>
+            <output>
+                <div id="res">
                     <p>
-                        Testando...
+                        Preencha os dados acima para ver o resultado.
                     </p>
+
                     <figure>
-                        <img src="" alt="Idade">
+                        <img src="" alt="">
                     </figure>
                 </div>
-            </div>
+            </output>
         </section>
 
         <footer>
@@ -58,5 +59,7 @@
             </p>
         </footer>
     </div>
+
+    <script src="scripts/desafio2.js"></script>
 </body>
 </html>
