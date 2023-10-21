@@ -18,7 +18,7 @@
         </header>
 
         <section>
-            <form method="get" autocomplete="off">
+            <div id="formulario">
                 <div>
                     <label for="idanoNasc">Ano de nascimento: </label>
                         <input type="number" name="anoNasc" id="idanoNasc" required />
@@ -38,19 +38,15 @@
                 <div>
                     <input type="submit" value="Verificar" onclick="verificar()" />
                 </div>
-            </form>
 
-            <output>
-                <div id="res">
-                    <p>
-                        Preencha os dados acima para ver o resultado.
-                    </p>
-
-                    <figure>
-                        <img src="" alt="">
-                    </figure>
-                </div>
-            </output>
+                <output>
+                    <div id="res">
+                        <p>
+                            Preencha os dados acima para ver o resultado.
+                        </p>
+                    </div>
+                </output>
+            </div>
         </section>
 
         <footer>
