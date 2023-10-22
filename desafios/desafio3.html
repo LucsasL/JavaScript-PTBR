@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
+    <link rel="stylesheet" href="estilos/style3.css">
+</head>
+<body>
+    
+    <div>
+        <header>
+            <h1>
+                Vamos contar
+            </h1>
+        </header>
+
+        <section>
+            <div>
+                <div>
+                    <label for="idinicio">Início: </label>
+                        <input type="number" name="inicio" id="idinicio" required>
+                </div>
+
+                <div>
+                    <label for="idfim">Fim: </label>
+                        <input type="number" name="Fim" id="idfim" required>
+                </div>
+
+                <div>
+                    <label for="idpasso">Passo: </label>
+                        <input type="text" name="passo" id="idpasso" required>
+                </div>
+
+                <div>
+                    <input type="submit" value="Contar" onclick="contar()">
+                </div>
+            </div>
+
+            <output id="res">
+                <p>
+                    Preparando a contagem...
+                </p>
+            </output>
+        </section>
+
+        <footer>
+            <p>
+                &copy; CursoemVídeo
+            </p>
+        </footer>
+    </div>
+
+    <script src="scripts/desafio3.js"></script>
+
+</body>
+</html>
