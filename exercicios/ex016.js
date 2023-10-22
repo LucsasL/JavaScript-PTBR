@@ -8,3 +8,6 @@ console.log(`Nosso vetor é: ${num}`)
 console.log('-------------------------------')
 console.log(`Ele tem ${num.length} posições.`)
 console.log(`Seu primeiro valor é: ${num[0]}`)
+var pos = num.indexOf(8)
+
+console.log(`O valor 8 está na posição ${pos}`)
