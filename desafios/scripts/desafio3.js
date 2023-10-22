@@ -1,32 +1,39 @@
 function contar() {
-    // Pega o valor do primeiro input no HTML e passa para uma variável
-    var txtInp1 = window.document.querySelector('input#idinicio')
-    var inicio = txtInp1.value
+    // Pega o valor dos inputs no HTML e passa para uma variável
+    let inicio = window.document.querySelector('input#idinicio')
+    let fim = window.document.querySelector('input#idfim')
+    let passo = window.document.querySelector('input#idpasso')
+    let res = document.querySelector('output#res')
 
-    // Pega o valor do segundo input no HTML e passa para uma variável
-    var txtInp2 = window.document.querySelector('input#idfim')
-    var fim = txtInp2.value
+    if (inicio.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+        res.innerHTML = 'Impossível contar!'
+        window.alert('[ERRO] Não é possível fazer contagem sem ter todos os dados!')
 
-    // Pega o valor do terceiro input no HTML e passa para uma variável
-    var txtInp3 = window.document.querySelector('input#idpasso')
-    var passo = txtInp3.value
+    } else {
+        res.innerHTML = '<p>Contando:</p>'
 
-    // Declara variável para saída de dados
-    var res = document.querySelector('output#res')
+        let i = Number(inicio.value)
+        let f = Number(fim.value)
+        let p = Number(passo.value)
 
-    // Adiciona parágrafos com dados manipulados
-    res.innerHTML = '<p>Contando:</p>'
-    res.innerHTML = `<p>${inicio} &#128073;</p>`
-
-    // Escreve valores manipulados após manipulação de dados
-    for (var c = inicio; c <= fim ; c += passo) {
-        if (c < fim) {
-            res.innerHTML = `<p>${c} &#128073;</p>`
-            
-        } else {
-            res.innerHTML = `<p>${c} &#127937;</p>`
-
+        if (p <= 0) {
+            window.alert('[ERRO] Passo inválido!')
         }
 
+        if (i > f) { // Contagem regressiva
+            for (let c = i ; c >= f ; c -= p) {
+                res.innerHTML += `<span>${c} &#128073;</span>`
+
+            }
+
+        } else { // Contagem progressiva
+            for (let c = i; c <= f ; c += p) {
+                res.innerHTML += `<span>${c} &#128073;</span>`
+    
+            }
+    
+        }
+        
+        res.innerHTML += '&#127937;'
     }
 }
