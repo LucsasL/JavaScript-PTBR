@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Tabuada</title>
 
     <link rel="stylesheet" href="estilos/style4.css">
 </head>
@@ -13,15 +13,23 @@
     <div>
         <header>
             <h1>
-                Teste
+                Tabuada
             </h1>
         </header>
 
         <section>
             <div>
                 <p>
-                    Testando...
+                    Número: <input type="number" name="num" id="idnum" required>
+
+                    <input type="submit" value="Gerar Tabuada" onclick="Tabuada()">
                 </p>
+
+                <output id="res">
+                    <select name="tab" id="idtab" size="10">
+                        <option>Digite um número acima</option>
+                    </select>
+                </output>
             </div>
         </section>
 
