@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(69, 113, 184);
+    color: white;
+
+    width: 100vw;
+    height: 100vh;
+
+    font: normal 1em Arial;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    padding: 15px;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    color: black;
+
+    width: 80vw;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.338);
+
+    border-radius: 10px;
+}
+
+input {
+    padding: 3px;
+    margin: 3px;
+}
+
+input#idnum {
+    width: 190px;
+    margin: 20px 0px;
+}
+
+
+select {
+    width: 220px;
+}
+
+option {
+    padding: 10px;
+}
