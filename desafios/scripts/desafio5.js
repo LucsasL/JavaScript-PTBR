@@ -43,18 +43,18 @@ function Analisar() {
         window.alert('[ERRO] Adicione valores antes de finalizar.')
     }
 
-    let maior = numeros[0]
-    let menor = numeros[0]
+    let maior = Number(numeros[0])
+    let menor = Number(numeros[0])
     let soma = Number(0)
 
     for (let c in numeros) {
         soma += Number(numeros[c])
 
         if (numeros[c] > maior) {
-            maior = numeros[c]
+            maior = c
         }
         if (numeros[c] < menor) {
-            menor = numeros[c]
+            menor = c
         }
     }
     media = soma / numeros.length
