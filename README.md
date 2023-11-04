@@ -45,11 +45,11 @@
 - <a href="exercicios/ex018.html" target="_blank" rel="noopener noreferrer">Exercício 18</a>
 
 - Exercício de Funções
-   * <a href="exercicios/funcao01.js" target="_blank" rel="noopener noreferrer">Exercício de Funções</a>
-   * <a href="exercicios/funcao02.js" target="_blank" rel="noopener noreferrer">Exercício de Funções</a>
-   * <a href="exercicios/funcao03.js" target="_blank" rel="noopener noreferrer">Exercício de Funções</a>
-   * <a href="exercicios/funcao04.js" target="_blank" rel="noopener noreferrer">Exercício de Funções</a>
-   * <a href="exercicios/funcao05.js" target="_blank" rel="noopener noreferrer">Exercício de Funções</a>
+   * <a href="exercicios/funcao01.js" target="_blank" rel="noopener noreferrer">Exercício de Funções 01</a>
+   * <a href="exercicios/funcao02.js" target="_blank" rel="noopener noreferrer">Exercício de Funções 02</a>
+   * <a href="exercicios/funcao03.js" target="_blank" rel="noopener noreferrer">Exercício de Funções 03</a>
+   * <a href="exercicios/funcao04.js" target="_blank" rel="noopener noreferrer">Exercício de Funções 04</a>
+   * <a href="exercicios/funcao05.js" target="_blank" rel="noopener noreferrer">Exercício de Funções 05</a>
 
 
 ### Desafios
