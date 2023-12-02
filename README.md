@@ -79,3 +79,13 @@
  Após um longo tempo de inatividade no repositório de JavaScript, por conta de estar mais focado no desenvolvimento de minhas habilidades em Python, através do [Curso de Python](https://github.com/lucsasl/javascript-ptbr), passei a continuar o curso, e realizar as atividades que nele existem. E em uma maratona rápida, passei a melhorar minhas habilidades em JavaScript de forma constante ao ponto de até connseguir manipular o DOM (Document Object Model) e conseguir lidar com **Arrays** e **Objetos** temas esses essenciais na linguagem por ser uma linguagem de programação orientada a objetos.
 
  Passarei a finalizar meus estudos em Python no repositório do [Curso de Python.](https://github.com/lucsasl/python-ptbr)
+
+# JavaScript Course - MDN
+
+Assim como ocorreu aquela dinâmica com o [repositório de HTML & CSS](https://github.com/lucsasl/HTML5-CSS3-PTBR), onde houveram dois cursos para me preparar diante do mercado, farei o mesmo com o repositório de JavaScript, mas dessa vez lendo documentações oficiais e fazendo os comandos necessários para aprender tudo que eu preciso da linguagem principal de aplicações em web.
+
+Embora o [curso de JavaScript do Guanabara](#javascript) tenha me dado um belo pontapé mostrandos os conceitos básicos em operações e scripts em python, eu quero uma aproximação geral da linguagem para realmente se tornar um expert na arte de criação de websites e explorar outras bibliotecas e frameworks. Daqui em diante estarei realizando tarefas mais complexas com JavaScript.
+
+## Conteúdo
+
+Nada ainda lol.
